@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-**Project Title:** Retail Sales Analysis
-**Level:** Beginner 
-**Database:** sql_project_1 
+**Project Title:** Retail Sales Analysis.
+**Level:** Beginner.
+**Database:** sql_project_1. 
 
 This project involves the analysis of retail sales data using MySQL. The goal is to explore the dataset, clean and prepare it, and extract meaningful business insights through SQL queries.
 
@@ -12,12 +12,12 @@ This project involves the analysis of retail sales data using MySQL. The goal is
 1. **Create the database and import the retail sales data from an Excel file.**
 2. **Identify and clean any null or missing values in the dataset.**
 3. **Perform basic exploratory SQL queries to better understand the data.**
-4.**Execute business-oriented SQL queries to derive valuable insights from the sales data.**
+4. **Execute business-oriented SQL queries to derive valuable insights from the sales data.**
 
 ## Project Strcture 
-1.database setup
-~ **create the database named as sql_project_1**
-~ **creat the table named as retail_sales and import the data from the excel file.**
+### database setup
+1. **create the database named as sql_project_1**
+2. **creat the table named as retail_sales and import the data from the excel file.**
 
 ```sql
 create database sql_project_1;
@@ -42,12 +42,12 @@ total_sale float
 );
 ```
 
-2. Data  Cleaning
-~ **The original dataset had no null values.**
-~ **To demonstrate data cleaning, a few records were manually inserted with null fields.**
-~ **SQL Safe Mode was temporarily disabled to allow deletion of these records.**
-~ **All inserted null records were successfully identified and removed.**
-~ **Safe Mode was re-enabled after cleanup for safety.**
+ ### Data  Cleaning
+1. **The original dataset had no null values.**
+2. **To demonstrate data cleaning, a few records were manually inserted with null fields.**
+3. **SQL Safe Mode was temporarily disabled to allow deletion of these records.**
+4. **All inserted null records were successfully identified and removed.**
+5. **Safe Mode was re-enabled after cleanup for safety.**
 
 ```sql
 /*insert values in the tabel */
@@ -173,11 +173,11 @@ from retail_sales
 group by shift ;
 ```
 
-# key Findigs
-~ **The dataset offers valuable insights into customer buying behavior and peak sales periods.**
-~ **Certain product categories have stronger performance in specific months and times of day.**
-~ **Targeting top customers and focusing on high-performing categories can drive better marketing strategies.**
+## key Findigs
+ 1. **The dataset offers valuable insights into customer buying behavior and peak sales periods.**
+ 2. **Certain product categories have stronger performance in specific months and times of day.**
+ 3. **Targeting top customers and focusing on high-performing categories can drive better marketing strategies.**
 
-# Conclusion
+## Conclusion
 This project is a complete beginner-friendly guide to SQL for data analysis. It includes setting up a database, cleaning the data, exploring it, and running SQL queries to answer business questions. The insights gained from this project can help understand sales trends, customer behavior, and how different products are performing
 
