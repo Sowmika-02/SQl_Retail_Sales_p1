@@ -1,18 +1,18 @@
-RETAIL_SALES ANALYSIS  SQL PROJECT
+#RETAIL_SALES ANALYSIS  SQL PROJECT
 
-Project Overview
+##Project Overview
 
-Project Title: Retail Sales Analysis
-Level: Beginner
-Database:sql_project_1
+**Project Title**: Retail Sales Analysis
+**Level**: Beginner
+**Database**:sql_project_1
 
 This project involves the analysis of retail sales data using MySQL. The goal is to explore the dataset, clean and prepare it, and extract meaningful business insights through SQL queries.
 
 Objective 
-1.Create the database and import the retail sales data from an Excel file.
-2.Identify and clean any null or missing values in the dataset.
-3.Perform basic exploratory SQL queries to better understand the data.
-4.Execute business-oriented SQL queries to derive valuable insights from the sales data
+**1**.Create the database and import the retail sales data from an Excel file.
+**2**.Identify and clean any null or missing values in the dataset.
+**3**.Perform basic exploratory SQL queries to better understand the data.
+**4**.Execute business-oriented SQL queries to derive valuable insights from the sales data
 
 Project Strcture 
 1.database setup
